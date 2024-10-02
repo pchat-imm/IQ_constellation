@@ -124,7 +124,7 @@
           <mxGeometry x="225" y="510" width="110" height="40" as="geometry" />
         </mxCell>
         <mxCell id="8mRTIrWLBFrAkmFhTARG-25" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="477.5" y="50" width="120" height="20" as="geometry" />
+          <mxGeometry x="860" y="720" width="120" height="20" as="geometry" />
         </mxCell>
         <mxCell id="8mRTIrWLBFrAkmFhTARG-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="8mRTIrWLBFrAkmFhTARG-49" target="8mRTIrWLBFrAkmFhTARG-52">
           <mxGeometry relative="1" as="geometry">
@@ -132,6 +132,24 @@
               <mxPoint x="559" y="620" />
               <mxPoint x="716" y="620" />
             </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8mRTIrWLBFrAkmFhTARG-80" value="Y" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="8mRTIrWLBFrAkmFhTARG-60">
+          <mxGeometry x="-0.0018" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8mRTIrWLBFrAkmFhTARG-78" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="8mRTIrWLBFrAkmFhTARG-49" target="8mRTIrWLBFrAkmFhTARG-69">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="559" y="620" />
+              <mxPoint x="445" y="620" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8mRTIrWLBFrAkmFhTARG-79" value="N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="8mRTIrWLBFrAkmFhTARG-78">
+          <mxGeometry x="-0.1286" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="8mRTIrWLBFrAkmFhTARG-49" value="&lt;div&gt;Signal spectrum &amp;gt;&amp;nbsp;&lt;/div&gt;&lt;div&gt;Noise Floor?&lt;/div&gt;" style="shape=rhombus;html=1;dashed=0;whiteSpace=wrap;perimeter=rhombusPerimeter;" vertex="1" parent="1">
@@ -169,6 +187,9 @@
         <mxCell id="8mRTIrWLBFrAkmFhTARG-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="8mRTIrWLBFrAkmFhTARG-53" target="8mRTIrWLBFrAkmFhTARG-54">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="8mRTIrWLBFrAkmFhTARG-84" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="8mRTIrWLBFrAkmFhTARG-53" target="8mRTIrWLBFrAkmFhTARG-83">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="8mRTIrWLBFrAkmFhTARG-53" value="transform ARFCN to SSB Freq" style="html=1;dashed=0;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="730" y="730" width="110" height="40" as="geometry" />
         </mxCell>
@@ -176,7 +197,7 @@
           <mxGeometry x="607.5" y="730" width="70" height="40" as="geometry" />
         </mxCell>
         <mxCell id="8mRTIrWLBFrAkmFhTARG-63" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="476.88" y="90" width="120" height="10" as="geometry" />
+          <mxGeometry x="860" y="755" width="120" height="10" as="geometry" />
         </mxCell>
         <mxCell id="8mRTIrWLBFrAkmFhTARG-70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="8mRTIrWLBFrAkmFhTARG-69" target="8mRTIrWLBFrAkmFhTARG-16">
           <mxGeometry relative="1" as="geometry">
@@ -192,11 +213,11 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="8mRTIrWLBFrAkmFhTARG-73" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="8mRTIrWLBFrAkmFhTARG-69" target="8mRTIrWLBFrAkmFhTARG-72">
+        <mxCell id="8mRTIrWLBFrAkmFhTARG-81" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="8mRTIrWLBFrAkmFhTARG-69" target="8mRTIrWLBFrAkmFhTARG-72">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="445" y="710" />
-              <mxPoint x="516" y="710" />
+              <mxPoint x="506" y="710" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -208,14 +229,75 @@
         </mxCell>
         <mxCell id="8mRTIrWLBFrAkmFhTARG-76" value="Y" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="8mRTIrWLBFrAkmFhTARG-75">
           <mxGeometry x="-0.3" y="2" relative="1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint x="12" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="8mRTIrWLBFrAkmFhTARG-72" value="&lt;div&gt;UE use&amp;nbsp;&lt;/div&gt;&lt;div&gt;burst traffic&lt;/div&gt;" style="shape=rhombus;html=1;dashed=0;whiteSpace=wrap;perimeter=rhombusPerimeter;" vertex="1" parent="1">
-          <mxGeometry x="460" y="730" width="112.5" height="60" as="geometry" />
+          <mxGeometry x="450" y="730" width="112.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8mRTIrWLBFrAkmFhTARG-77" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="8mRTIrWLBFrAkmFhTARG-74" target="8mRTIrWLBFrAkmFhTARG-52">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="590" y="840" />
+              <mxPoint x="590" y="670" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="8mRTIrWLBFrAkmFhTARG-74" value="change app to use constant signal" style="html=1;dashed=0;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="462.81" y="820" width="106.88" height="40" as="geometry" />
+          <mxGeometry x="452.81" y="810" width="106.88" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8mRTIrWLBFrAkmFhTARG-86" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="8mRTIrWLBFrAkmFhTARG-83" target="8mRTIrWLBFrAkmFhTARG-85">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8mRTIrWLBFrAkmFhTARG-83" value="get SSB Freq" style="shape=parallelogram;html=1;strokeWidth=1;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
+          <mxGeometry x="720" y="790" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8mRTIrWLBFrAkmFhTARG-89" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="8mRTIrWLBFrAkmFhTARG-85" target="8mRTIrWLBFrAkmFhTARG-88">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="785" y="910" />
+              <mxPoint x="694" y="910" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8mRTIrWLBFrAkmFhTARG-92" value="N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="8mRTIrWLBFrAkmFhTARG-89">
+          <mxGeometry x="-0.0795" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8mRTIrWLBFrAkmFhTARG-100" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="8mRTIrWLBFrAkmFhTARG-85" target="8mRTIrWLBFrAkmFhTARG-93">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="785" y="910" />
+              <mxPoint x="875" y="910" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8mRTIrWLBFrAkmFhTARG-101" value="Y" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="8mRTIrWLBFrAkmFhTARG-100">
+          <mxGeometry x="0.0333" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8mRTIrWLBFrAkmFhTARG-85" value="sure SSB Freq" style="shape=rhombus;html=1;dashed=0;whiteSpace=wrap;perimeter=rhombusPerimeter;" vertex="1" parent="1">
+          <mxGeometry x="720" y="840" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8mRTIrWLBFrAkmFhTARG-95" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="8mRTIrWLBFrAkmFhTARG-88" target="8mRTIrWLBFrAkmFhTARG-93">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8mRTIrWLBFrAkmFhTARG-88" value="&lt;div&gt;FF-OTA_5G_NR&lt;/div&gt;&lt;div&gt;Offset_detection = ON&lt;br&gt;&lt;/div&gt;" style="html=1;dashed=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="628.75" y="930" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8mRTIrWLBFrAkmFhTARG-103" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="8mRTIrWLBFrAkmFhTARG-93" target="8mRTIrWLBFrAkmFhTARG-102">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8mRTIrWLBFrAkmFhTARG-93" value="&lt;div&gt;FF-OTA_5G_NR&lt;/div&gt;&lt;div&gt;Offset_detection = OFF&lt;br&gt;&lt;/div&gt;" style="html=1;dashed=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="810" y="930" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8mRTIrWLBFrAkmFhTARG-96" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="8mRTIrWLBFrAkmFhTARG-63" target="8mRTIrWLBFrAkmFhTARG-63">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8mRTIrWLBFrAkmFhTARG-102" value="&lt;div&gt;get Freq Offset&lt;/div&gt;&lt;div&gt;Time Delay&lt;/div&gt;&lt;div&gt;SINR&lt;br&gt;&lt;/div&gt;" style="shape=parallelogram;html=1;strokeWidth=1;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
+          <mxGeometry x="805" y="990" width="140" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
