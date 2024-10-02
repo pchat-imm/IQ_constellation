@@ -379,8 +379,8 @@
         <mxCell id="ca0mWWUZ75KHuM3Si87a-19" value="&lt;div&gt;FF-OTA_5G_EVM&lt;br&gt;&lt;/div&gt;&lt;div&gt;trace&amp;nbsp;&amp;nbsp; Frame summary&lt;/div&gt;&lt;div&gt;see &lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&amp;nbsp;&amp;nbsp; modulation&lt;br&gt;&lt;/div&gt;" style="html=1;dashed=0;whiteSpace=wrap;align=left;" vertex="1" parent="1">
           <mxGeometry x="361.27" y="323" width="130" height="47" as="geometry" />
         </mxCell>
-        <mxCell id="ca0mWWUZ75KHuM3Si87a-20" value="&lt;div&gt;FF-OTA_5G_EVM&lt;/div&gt;&lt;div&gt;trace Constellation&lt;/div&gt;&lt;div&gt;(mod PSS,SSS,PBCH, PBCH-DMRS)&lt;br&gt;&lt;/div&gt;" style="html=1;dashed=0;whiteSpace=wrap;shape=mxgraph.dfd.start;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="353.77" y="393" width="145" height="67" as="geometry" />
+        <mxCell id="ca0mWWUZ75KHuM3Si87a-20" value="&lt;div&gt;trace Constellation&lt;/div&gt;&lt;div&gt;(mod PSS,SSS,PBCH, PBCH-DMRS)&lt;br&gt;&lt;/div&gt;" style="html=1;dashed=0;whiteSpace=wrap;shape=mxgraph.dfd.start;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="353.77" y="393" width="145" height="50" as="geometry" />
         </mxCell>
         <mxCell id="xiOsiQnrdQBRv7DSHF2_-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="ca0mWWUZ75KHuM3Si87a-22" target="ca0mWWUZ75KHuM3Si87a-26">
           <mxGeometry relative="1" as="geometry" />
