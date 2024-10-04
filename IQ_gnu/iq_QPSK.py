@@ -111,7 +111,7 @@ class iq_QPSK(gr.top_block, Qt.QWidget):
 
         self._qtgui_const_sink_x_0_0_win = sip.wrapinstance(self.qtgui_const_sink_x_0_0.qwidget(), Qt.QWidget)
         self.top_layout.addWidget(self._qtgui_const_sink_x_0_0_win)
-        self.digital_pfb_clock_sync_xxx_0 = digital.pfb_clock_sync_ccf(4, (62.8e-3), firdes.root_raised_cosine(32, 32, 1.0/float(4), 0.35, 11*4*32), 32, 16, 1.5, 2)
+        self.digital_pfb_clock_sync_xxx_0 = digital.pfb_clock_sync_ccf(2, (62.8e-3), firdes.root_raised_cosine(32, 32, 1.0/float(4), 0.35, 11*4*32), 32, 16, 1.5, 2)
         self.digital_linear_equalizer_0 = digital.linear_equalizer(15, 2, CMA_alg, True, [ ], 'corr_est')
         self.digital_costas_loop_cc_0 = digital.costas_loop_cc((62.8e-3), 4, False)
         self.channels_channel_model_0 = channels.channel_model(
@@ -121,8 +121,10 @@ class iq_QPSK(gr.top_block, Qt.QWidget):
             taps=[1.0],
             noise_seed=0,
             block_tags=False)
-        self.blocks_file_source_0 = blocks.file_source(gr.sizeof_gr_complex*1, '/home/tiwat/workarea/gnu_radio/IQA_gnu/iq_ff_011024/input_ff/complex_iq_SPEEDTEST_10MS.bin', True, 0, 0)
+        self.blocks_file_source_0 = blocks.file_source(gr.sizeof_gr_complex*1, '/home/tiwat/workarea/IQ_constellation/a.input_fieldfox/011024/complex_iq_SPEEDTEST_10MS.bin', True, 0, 0)
         self.blocks_file_source_0.set_begin_tag(pmt.PMT_NIL)
+        self.blocks_file_sink_0 = blocks.file_sink(gr.sizeof_gr_complex*1, '/home/tiwat/Downloads/iq_result_a', False)
+        self.blocks_file_sink_0.set_unbuffered(False)
 
 
         ##################################################
@@ -130,6 +132,7 @@ class iq_QPSK(gr.top_block, Qt.QWidget):
         ##################################################
         self.connect((self.blocks_file_source_0, 0), (self.channels_channel_model_0, 0))
         self.connect((self.channels_channel_model_0, 0), (self.digital_pfb_clock_sync_xxx_0, 0))
+        self.connect((self.digital_costas_loop_cc_0, 0), (self.blocks_file_sink_0, 0))
         self.connect((self.digital_costas_loop_cc_0, 0), (self.qtgui_const_sink_x_0_0, 0))
         self.connect((self.digital_linear_equalizer_0, 0), (self.digital_costas_loop_cc_0, 0))
         self.connect((self.digital_pfb_clock_sync_xxx_0, 0), (self.digital_linear_equalizer_0, 0))
