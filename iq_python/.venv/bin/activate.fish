@@ -33,7 +33,7 @@ end
 # Unset irrelevant variables.
 deactivate nondestructive
 
-set -gx VIRTUAL_ENV "/home/tiwat/workarea/IQ_constellation/iq_python/.venv"
+set -gx VIRTUAL_ENV "/home/chatchamon/workarea/IQ_constellation/iq_python/.venv"
 
 set -gx _OLD_VIRTUAL_PATH $PATH
 set -gx PATH "$VIRTUAL_ENV/bin" $PATH
