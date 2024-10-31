@@ -1,0 +1,1 @@
+max_corr: 2.174395467816454 coarseFrequencyOffset: 0.0 NID2: 1
